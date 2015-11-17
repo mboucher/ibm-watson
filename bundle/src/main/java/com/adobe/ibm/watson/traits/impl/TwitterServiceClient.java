@@ -60,10 +60,10 @@ public class TwitterServiceClient {
     @Reference
     private ConfigurationManagerFactory configManagerFactory;
 
-    @Property(label = "Default Twitter API Username", description = "Only needed in a production environment without Geometrixx Outdoors site.", value="sPCqimbNL0oWnfCeaWkMog")
+    @Property(label = "Default Twitter API Username", description = "Only needed in a production environment without Geometrixx Outdoors site.", value="")
     private static final String PROP_TWITTER_ID = "twitter.clientId";
 
-    @Property(label = "Default Twitter API Secret", description = "Only needed in a production environment without Geometrixx Outdoors site.", value="8EIopQz9MozHs9PkGN46ZS7MbkpZGYpwgwO01bG9c")
+    @Property(label = "Default Twitter API Secret", description = "Only needed in a production environment without Geometrixx Outdoors site.", value="")
     private static final String PROP_TWITTER_SECRET = "twitter.clientSecret";
 
     @Activate
