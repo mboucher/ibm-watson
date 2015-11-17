@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ibm-watson"/>
+    <filter root="/etc/designs/ibm-watson"/>
+    <filter root="/etc/cloudsettings/default/contexthub/ibm_watson_store"/>
+    <filter root="/etc/cloudsettings/default/contexthub/ibm_watson_personali"/>
+    <filter root="/etc/cloudservices/ibm-watson"/>
+</workspaceFilter>

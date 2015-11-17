@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="ContextHub Configuration"
+    sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseconfiguration"
+    debug="{Boolean}false">
+    <geolocation/>
+    <surferinfo/>
+    <profile/>
+    <resolvedsegments-clientcontext/>
+    <emulators/>
+    <persona/>
+    <device/>
+    <segmentation/>
+    <resolvedsegments/>
+    <commerce/>
+    <abandonedproducts/>
+    <recentlyviewed/>
+    <cart/>
+    <orderhistory/>
+    <relatedproducts/>
+    <ibm_watson_store/>
+    <ibm_watson_personali/>
+</jcr:root>

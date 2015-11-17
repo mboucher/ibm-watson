@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <general
+            jcr:primaryType="nt:unstructured"
+            title="IBM Watson Cloud Service Settings"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <username
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="API Username"
+                    name="./public/username"
+                    xtype="textfield"/>
+                <password
+                    jcr:primaryType="cq:Widget"
+                    allowBlank="{Boolean}false"
+                    fieldLabel="API Password"
+                    name="./public/password"
+                    xtype="password"/>
+                <btnpanel
+                    jcr:primaryType="cq:Widget"
+                    border="{Boolean}false"
+                    xtype="panel">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <connectbutton
+                            jcr:primaryType="cq:Widget"
+                            localName="connectButton"
+                            style="float:right;"
+                            text="Connect to IBM Watson"
+                            xtype="button">
+                            <listeners
+                                jcr:primaryType="nt:unstructured"
+                                afterrender="function(comp) { CQ.ibmwatson.IBMWatson.afterRender(comp); }"
+                                click="function(comp,evt) { CQ.ibmwatson.IBMWatson.checkWatson(comp, evt); }"/>
+                        </connectbutton>
+                    </items>
+                </btnpanel>
+            </items>
+        </general>
+    </items>
+</jcr:root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Settings to enable IBM Watson"
+    jcr:primaryType="cq:Template"
+    jcr:title="IBM Watson Configuration"
+    sling:resourceSuperType="cq/configurations/templates/configpage"
+    allowedPaths="[/etc/cloudservices/ibm-watson(/.*)?]"
+    ranking="{Long}90">
+    <jcr:content
+        cq:cloudservicename="ibmwatson"
+        cq:designPath="/etc/designs/cloudservices/ibmwatson"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="/apps/ibm-watson/components/cloudservices/ibmwatsonpage"/>
+</jcr:root>

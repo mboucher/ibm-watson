@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="IBM Watson Personality Insight"
+    sling:resourceType="/libs/granite/contexthub/cloudsettings/components/uimode"
+    enabled="{Boolean}true"
+    icon="icon-ibm-watson-logo">
+    <openness
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Openness"
+        sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+        enabled="{Boolean}true"
+        moduleType="watson.openness"/>
+    <extraversion
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Extraversion"
+        sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+        enabled="{Boolean}true"
+        moduleType="watson.extraversion"/>
+    <conscientiousness
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Conscientiousness"
+        sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+        enabled="{Boolean}true"
+        moduleType="watson.conscientiousness"/>
+    <agreeableness
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Agreeableness"
+        sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+        enabled="{Boolean}true"
+        moduleType="watson.agreeableness"/>
+    <neuroticism
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Neuroticism"
+        sling:resourceType="/libs/granite/contexthub/cloudsettings/components/baseuimodule"
+        enabled="{Boolean}true"
+        moduleType="watson.neuroticism"/>
+</jcr:root>
