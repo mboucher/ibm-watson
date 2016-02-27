@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="ibmwatson"
+        cq:designPath="/etc/designs/cloudservices/ibmwatson"
+        cq:lastModified="{Date}2015-10-26T11:26:01.679-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/cloudserviceconfigs/templates/servicepage"
+        jcr:lastModified="{Date}2015-10-26T11:26:01.676-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Demo Configuration"
+        sling:resourceType="/apps/ibm-watson/components/cloudservices/ibmwatsonpage">
+        <public
+            jcr:primaryType="nt:unstructured"
+            password="vCYzM676jdtk"
+            username="14f5552e-b531-44df-8da2-fbbe6a21e9e5"/>
+    </jcr:content>
+</jcr:root>

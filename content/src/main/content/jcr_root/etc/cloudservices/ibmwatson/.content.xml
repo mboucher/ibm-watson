@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <public
+        jcr:primaryType="nt:unstructured"
+        password="vCYzM676jdtk"
+        username="14f5552e-b531-44df-8da2-fbbe6a21e9e5"/>
+    <jcr:content
+        cq:lastModified="{Date}2015-10-22T14:18:58.140-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/ibm-watson/templates/ibmwatson"
+        jcr:description="Configure IBM Watson"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="IBM Watson"
+        sling:resourceType="cq/cloudserviceconfigs/components/servicepage"
+        allowMultiple="{Boolean}false"
+        connectedWhen="username"
+        description="Watson Discovery Advisor is a powerful tool that understands nuances in human language. It also provides the ability for researchers to visually see connections in their data they would not have considered."
+        ranking="10"
+        serviceAdminUrl="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/"
+        thumbnailPath="/apps/ibm-watson/templates/ibmwatson/thumbnail.png"
+        visible="{Boolean}true"/>
+    <demo-configuration/>
+</jcr:root>
