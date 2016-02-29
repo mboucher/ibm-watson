@@ -4,5 +4,5 @@
     <filter root="/etc/designs/ibm-watson"/>
     <filter root="/etc/cloudsettings/default/contexthub/ibm_watson_store"/>
     <filter root="/etc/cloudsettings/default/contexthub/ibm_watson_personali"/>
-    <filter root="/etc/cloudservices/ibm-watson"/>
+    <filter root="/etc/cloudservices/ibmwatson"/>
 </workspaceFilter>
